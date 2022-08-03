@@ -27,9 +27,8 @@ function App() {
   //         .then(response => response.json())
   //         .then(json => setGet(json))
   // }.[]
-
-
   return (
+
       <div className="App">
         <Button nickName={'GetRequest'} callBack={getRequestHandler}/>
         <p></p>
